@@ -1,0 +1,44 @@
+/* Container for the list */
+.provers-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Style for the search input */
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+/* Style for each list item */
+.prover-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.prover-item:hover {
+    background-color: #f1f1f1;
+}
+
+/* Style for labels and values */
+.prover-item strong {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.prover-item span {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}

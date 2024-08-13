@@ -37,3 +37,55 @@ body {
 		margin: 0 2rem;
 	}
 }
+/* Container for the list */
+.provers-container {
+	padding: 20px;
+    width: 100%;
+    margin: auto;
+    background: #673ab8;
+	margin-top: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style for the search input */
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Style for each list item */
+.prover-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+	margin-bottom: 30px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+.provers-container h2 {
+	color: white
+}
+.prover-item:hover {
+    background-color: #f1f1f1;
+}
+
+/* Style for labels and values */
+.prover-item strong {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.prover-item span {
+    display: flex;
+    color: #333;
+}
